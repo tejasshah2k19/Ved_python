@@ -1,0 +1,69 @@
+HL -> eng  : user 
+
+LL -> system : 010101 binary -> Assembley 
+
+ML -> H.L + L.L  
+
+H.L -> code ---> run --> system -> L.L 
+			translator 
+
+japan -> guj -> japanese 
+	translator 
+1) compiler  --> whole at once 
+2) interpreter  --> line by line 
+
+lang -> 
+	C -> compiler 
+	C++ -> compiler 
+	Python -> interpreter 
+	Java ->  compiler + interpreter 
+
+
+	TC -> Turbo Compiler 
+	GCC -> 
+	 
+--------------------------------------------------------------------------------------
+	
+H.L -> alt + f9 -> compile -> 
+           ctrl  + f9 
+
+
+Python -->  H.L 
+		   Interpreted 
+		   Expressive 
+		   indentation 
+
+python -> 
+
+--------------------------------------------------------------------------------------------
+
+.c 
+.py 
+python 2 ---> 
+
+python 3 ---> 
+	3.X 
+	3.11 ---> 
+
+--------------------------------------------------------------------------------------------
+
+
+.c --> compile --> .bak, .obj , .exe 
+.c --> compile --> .out .a 
+
+.py --> run --> interpreter -> run => output 
+
+python first.py 
+
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
