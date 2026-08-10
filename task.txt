@@ -1,0 +1,33 @@
+Problem 1: 
+
+
+A college wants to maintain a list of students.
+
+Requirements
+Add a new student.
+Add multiple students at once.
+Insert a student at a specific position.
+Remove a student by name.
+Remove the last student.
+Search for a student.
+Count how many times a student name appears.
+Find the index of a student.
+Sort students alphabetically.
+Reverse the student list.
+Create a backup of the list.
+Clear the entire list.
+Display total students.
+Find duplicate names.
+Remove duplicate names.
+List Methods Used
+append()
+extend()
+insert()
+remove()
+pop()
+index()
+count()
+sort()
+reverse()
+copy()
+clear()

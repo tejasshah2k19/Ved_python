@@ -60,10 +60,200 @@ python first.py
 perform add , sub , mul , div 
 
 
+--------------------------------------------------------------------------------------------
+
+
+type ? 
+data type -> explicitly 
+
+int 
+float
+complex 
+string str 
+boolean bool 
+
+
+a = 10 
+
+print( type(a) ) #<class 'int'>
+
+
+explicitly convert -> type cast -> using casting function 
+
+int() 
+float()
+chr()
+str() 
+
+naming rule ? 
+1) a-z A-Z 0-9 _ 
+2) can not start with digit 
+3) can not use keywords 
+4) case-sensitive 
+
+ 
+first_name --> snakecase 
+
+firstName -> 
+--------------------------------------------------------------
+
+conditional statement :- 
+
+if 
+if else 
+nested if ... else 
+elif.... 
+
+
+loop :- 
+
+	for
+	while 
+
+
+1
+12
+123
+1234
+12345
+
+
+num = 17845 , sum -> 25 
+max => 8 
+
+
+num=>65647 => 7 
+num=>2345 => 5 
+
+
+break 
+continue 
+
+pass 
+
+---------------------------------------------------------------------------------------
+
+
+for XXXX :
+
+else: 
+
+while  XXX :
+
+else: 
+
+
+---------------------------------------------------------------------------------------
+
+
+
+
+number system 
+
+	binary  : 2  : 0 1
+	octal   : 8  : 0 1 2 3 4 5 6 7
+	decimal : 10 : 0 1 2 3 4 5 6 7 8 9 
+	hexaDecimal : 16 :  0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+
+default --> decimal --> binary 
+
+	int a; 
+	a = 5;//decimal  -> 101  
+
+	0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+
+
+
+num = 17 //decimal 
+
+hex(num)
+oct()
+bin()
+
+0X => hexaDecimal 
+0o => octal 
 
 
 
 
 
 
+1 => decimal 
+0o1 => octal 
+0x1 => hexaDecimal 
+0b1 => binary 
 
+-----------------------------------------------------------------
+
+Unicode -> UTF-8(*) UTF-16 UTF-32 
+
+A => 65 => ASCII 
+
+python 3.0 => UTF-8 
+
+'\uXXXX' 
+
+
+-----------------------------------------------------------------
+name  = "royal" 
+
+r : XXX 
+o : XXX 
+y : XXX 
+a : XXX
+l : xxx 
+
+-----------------------------------------------------------------
+
+Arithmetic Operators : 	
+			+ - * / % //  ** 
+
+Relational Operators : 
+			> < >= <= != ==
+
+Assignment Operators : 
+			+= -= *= = /= 
+
+BitWise : 
+			>> 
+			<< 
+			&
+			|
+			~
+			^
+
+Logical : 
+			AND  - and 
+			OR   - or 
+			NOT  - not 
+
+Membership :
+				in
+				not in 
+
+Identity : 
+				is 
+				is not 
+
+True , False 
+
+------------------------------------------------------------------
+
+
+
+match choice : 
+	case 1:
+
+	case _: 
+no need to write break
+
+
+
+------------------------------------------------------------------
+
+string ->  <class str> 
+
+name = "rOyAl" 
+
+------------------------------------------------------------------
