@@ -257,3 +257,105 @@ string ->  <class str>
 name = "rOyAl" 
 
 ------------------------------------------------------------------
+
+
+tuple -> () -> tuple() 
+
+ x= ()
+ x = tuple()
+
+	ordered 
+	duplicate 
+	index 
+	immutable 
+
+	read-only
+
+	slicing 
+	negative indexing 
+
+	t --> header 
+			--->
+			--->
+			--->
+			--->
+			--->
+	count() 
+	index()
+
+
+	dictionary -> key:value 
+				 (tuple can be key)
+				 [list can not be key]
+
+------------------------------------------------------------------
+set  = { 1,2,3,4,5}
+		set()
+
+		unordered 
+		no indexing 
+		unique 
+		muttable 
+
+
+set theory ---> union intersection difference*********
+
+------------------------------------------------------------------
+
+
+add()   add(10)
+update()  update([11,22,33])
+remove() => remove(2) => KeyError throw 
+discard() => discard(2) => remove if present else nothing 
+pop() => remmove and return => random delete 
+clear() => remove all 
+copy() => shallow copy 
+
+
+set Operatios methods -->
+	union() => combine both set with unique values 
+	intersection() => returns common of both sets 
+	difference()=> A-B { return all elements which is present in A but not in B }
+	symettric_difference() -> A-B U B-A 
+
+	intersection_update()
+	difference_update()
+	symettric_difference_update()
+
+	issubset()
+	issuperset()
+	isdijoint() 
+
+-------------------------------------------------------------- 
+
+
+Problem 1: College Club Management
+Scenario
+
+A college has multiple clubs (Coding, Sports, Music, Dance). Students can join one or more clubs.
+
+coding = {'ram','rock','shyam'}
+sports = {'sita','ravan','ram'}
+music = {'sakira','jack','ram'}
+
+
+Tasks
+Create sets for each club.
+Add new students.
+Remove students.
+Display students in multiple clubs.
+Find students only in Coding Club.
+Find students in Coding or Sports.
+Find students in exactly one of Coding/Sports.
+Check whether Dance Club students are a subset of Cultural Club.
+Check whether all Coding Club students belong to Technical Club.
+Remove students who left the college.
+Find students who joined no common club.
+Copy the Coding Club list.
+Clear a club after the event.
+
+
+
+
+
+
