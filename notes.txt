@@ -355,7 +355,26 @@ Copy the Coding Club list.
 Clear a club after the event.
 
 
+-----------------------------------------------------
 
+def keyword is used to create function in python 
+
+---------------------------------------------------------
+
+module --> .py file -> import -> reuse 
+
+two -> built in -> os , datetime , random  
+       user define -> 
+	   third party -> 
+
+	pip install numpy 
+	pip install pandas 
+
+
+package 
+	folder 
+			module 
+---------------------------------------------------------
 
 
 
