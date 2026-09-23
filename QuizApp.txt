@@ -1,0 +1,235 @@
+==================================================
+              ONLINE QUIZ SYSTEM
+==================================================
+
+1. Student Login
+2. Student Registration
+3. Exit
+
+Enter your choice: 1
+
+
+--------------------------------------------------
+                 STUDENT LOGIN
+--------------------------------------------------
+
+Enter Mobile Number: 9876543210
+Enter Password: ********
+
+Login Successful!
+
+Welcome, Rustom 
+
+
+
+After Login 
+
+==================================================
+              STUDENT DASHBOARD
+==================================================
+
+Welcome Rustom!
+
+1. Start Quiz
+2. My Previous Scores
+3. View Subjects
+4. My Profile
+5. Logout
+
+Enter your choice: 1
+
+
+
+Subject Selection
+--------------------------------------------------
+                 SELECT SUBJECT
+--------------------------------------------------
+
+1. Python
+2. Java
+3. C Programming
+4. DBMS
+5. HTML & CSS
+6. MySQL
+7. Back to Dashboard
+
+Enter your choice: 1
+Quiz
+
+
+==================================================
+                 PYTHON QUIZ
+==================================================
+
+Student : Rustom
+Subject : Python
+Questions: 5
+--------------------------------------------------
+
+Question 1 of 5
+
+Which keyword is used to define a function in Python?
+
+A. function
+B. def
+C. fun
+D. define
+
+Enter your answer: B
+
+
+--------------------------------------------------
+
+Question 2 of 5
+
+Which of the following is a mutable data type?
+
+A. tuple
+B. string
+C. list
+D. integer
+
+Enter your answer: C
+
+
+--------------------------------------------------
+
+Question 3 of 5
+
+What is the output of:
+
+print(10 + 20)
+
+A. 1020
+B. 30
+C. 10+20
+D. Error
+
+Enter your answer: B
+
+
+--------------------------------------------------
+
+Question 4 of 5
+
+Which symbol is used for comments in Python?
+
+A. //
+B. /*
+C. #
+D. --
+
+Enter your answer: C
+
+
+--------------------------------------------------
+
+Question 5 of 5
+
+Which collection stores data as key-value pairs?
+
+A. List
+B. Tuple
+C. Set
+D. Dictionary
+
+Enter your answer: D
+
+
+==================================================
+                 QUIZ COMPLETED
+==================================================
+
+Student : Rustom
+Subject : Python
+
+Total Questions : 5
+Correct Answers  : 5
+Wrong Answers    : 0
+
+Score : 5 / 5
+Percentage : 100%
+
+Result : PASS
+
+==================================================
+
+1. Back to Dashboard
+2. View My Scores
+3. Logout
+
+Enter your choice:
+Previous Scores
+==================================================
+                 MY PREVIOUS SCORES
+==================================================
+
+Student : Rustom
+Mobile  : 9876543210
+
+--------------------------------------------------
+No.   Subject          Score       Percentage
+--------------------------------------------------
+1     Python           5/5         100%
+2     Java             4/5          80%
+3     DBMS             3/5          60%
+4     Python           4/5          80%
+--------------------------------------------------
+
+Best Score : Python - 5/5
+Average Score : 80%
+
+1. Back to Dashboard
+2. Logout
+
+Enter your choice:
+View Subjects
+==================================================
+                  AVAILABLE SUBJECTS
+==================================================
+
+1. Python
+2. Java
+3. C Programming
+4. DBMS
+5. HTML & CSS
+6. MySQL
+
+Total Subjects Available : 6
+
+Press Enter to continue...
+Registration
+==================================================
+              STUDENT REGISTRATION
+==================================================
+
+Enter Student Name   : Rustom Shah
+Enter Mobile Number  : 9876543210
+Create Password      : ********
+Confirm Password     : ********
+
+Registration Successful!
+
+Your account has been created successfully.
+
+Press Enter to continue...
+Logout
+==================================================
+                 LOGOUT
+==================================================
+
+Thank you Rustom!
+
+You have been successfully logged out.
+
+Returning to main menu...
+Exit
+==================================================
+              ONLINE QUIZ SYSTEM
+==================================================
+
+Thank you for using Online Quiz System.
+
+Goodbye!
+==================================================
+ 

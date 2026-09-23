@@ -376,5 +376,293 @@ package
 			module 
 ---------------------------------------------------------
 
+error 
+
+	compiletime error - comiler - 
+	runtime error - exception -
+
+try -> 
+throw -> object { raise }
+except { catch }
+
+
+
+
+try -> single -> X 
+try -> except -> Y 
+try -> multiple except -> Y 
+try -> except -> finally -> Y 
+try -> except -> else -> finally -> Y 
+try -> finally -> Y 
+
+ 
+read name and marks of three subjects - maths sci eng 
+calc percentage based on marks 
+calculate grade   if 35+ P ,  F if percentage less than 35 
+print all the details name marks percentage and grade
+
+make sure to handle all the exception and general exception block ,
+also marks must be >=1 and <=100 
+
+
+--------------------------------------------------------
+
+credit card -> invalid , cvv , otp , expired , limit 
+payment error code 
+custom 
+
+
+raise -> 
+-------------------------------------------------------------------
+
+OOP -> class - object 
+
+class :- 
+	logical 
+	general 
+
+object :- 
+	physical 
+	special 
+
+Bottle -> class 
+Iphone -> class 
+Legion Laptop -> class
+Dhiraj sir's car -> object 
+Light -> class 
+Tyer -> class 
+Chair -> class 
+ved's spec -> object 
+
+-------------------------------------------------------------------
+class -> variable + method 
+		 data memeber 
+		 member function 
+
+to create class we need to use class keyword
+
+class A : 
+	pass 
+
+pass keyword is used to make empty block. 
+
+
+to create method in class we use same keyword def , but we must pass self as an argument of all methods. 
+
+using self we can refere instance scope. 
+-------------------------------------------------------------------
+
+1. Add Question 
+2. List Question 
+3. Exit 
+
+1.
+Enter Question
+1+1 =  ? 
+Enter option1
+11
+Enter option2
+2
+Enter option3
+1
+Enter option4
+None Of given 
+Corrent Ans
+2
+
+
+list of objects 
+-------------------------------------------------------------------
+
+input -> process -> output -> close 
+
+
+1) file 
+2) database 
+
+
+file write 
+file read 
+
+
+file create 
+file remove 
+file attribute 
+ 
+
+open() -> file 
+
+open("fileName")  => read 
+open("fileName","r")  => read 
+
+open("fileName","w")  => write 
+
+
+w -> will over write the data of the file -> new data { old will be over write }
+a -> append the data into file -> old data + new data 
+append -> a 
+
+w+ => write read 
+r+ => read write 
+a+ => append read 
+
+
+write()
+writelines()
+
+read() | read(size)
+readline()
+readlines() 
+
+
+------------------------------------------------------
+
+
+oops ->
+	class 
+	object 
+	methods 
+	instance variable 
+	__init__() : constructor 
+	__init__(args) : 
+	@classmethod -> cls
+	@staticmethod 
+	encapsulation 
+		public 
+		_protected 
+		__private 
+
+
+
+------------------------------------------------
+
+Functional Programming
+
+	lambda 
+
+
+def square(n):
+	return n*n 
+
+sqr = lambda n : n * n 
+sqr(5)
+
+pow = lambda x,y : x**y 
+pow(3,2)
+
+
+
+map() 	  ->  transform data  
+filter()  ->  select data 
+reduce()  ->  merge / combine data 
+
+
+map() applies function to every element of a collection. 
+
+numbers= [1,2,3,4,5]
+
+
+sqr = lambda x: x * x 
+sqr(2)
+
+
+result = map(lambda x: x * x,numbers)
+
+print(list(result))
+
+def sqr(x):
+	return x*x 
+
+
+result = map(sqr,numbers)
+print(list(result))
+
+-------------------------------------------------------------
+filter() -> it is used when you want to select element based on conditional 
+
+numbers= [1,2,3,4,5]
+result = filter(lambda x: X % 2 == 0 ,numbers)
+print(list(result))
+------------------------------------------------------------------
+
+reduce()
+it can take multiple values and reduce them into 1 final value. 
+
+for reduce() we need to import it from functools 
+
+import functools
+functools.reduce 
+
+
+from functools import reduce 
+
+result = reduce(lambda a, b : a+b , numbers )
+
+print(result)
+
+
+------------------------------------------------------------------
+Q1: 
+a= [10,20,30]
+b = [1,2,3]
+now perform sum of first list with second list 
+output => [11,22,33]
+
+Q2: 
+marks = [55,62,85,74]
+now add 5 marks as grace in every marks 
+output => [60,67,90,79]
+
+count how many subject get B Grade [ for B grade we need to score 65+]
+output => 3 
+
+find out total obtain marks 
+output => 296
+
+Q3:
+	products = [
+		{"name":"laptop","price":60000},
+		{"name":"mouse","price":800},
+		{"name":"keyboard","price":1500},
+		{"name":"monitor","price":12000},
+	]
+
+	1) find the products costing more than 10000 
+		[
+			{name:laptop,price:60000},
+			{name:monitor,price:12000}
+		]
+
+	2) print all the products name 
+		[laptop,mouse,keyboard,monitor]
+
+	
+	3) price decending order -> dictionary 
+
+		result = sorted(products,key=lambda p : p["price"]  )
+
+		result = sorted(products,key=lambda p : p["price"],reverse=True)
+
+
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
